@@ -1,0 +1,39 @@
+.app-container{
+  display: flex;
+  height: 100vh;
+}
+.content{
+  width: 100%;
+  overflow: auto;
+  scrollbar-width:none ;
+}
+
+.post-card{
+  margin: 20px;
+}
+.badge{
+  margin: 2px;
+}
+.alert{
+  margin: 5px;
+  margin-top: 0;
+}
+.create-post{
+  margin: 20px;
+  border: 1px solid rgb(173, 173, 173);
+  padding: 20px;
+  border-radius: 10px;
+}
+.welcomemsg{
+  width: 300px;
+  margin: 200px auto;
+  align-items: center;
+  color: rgb(108, 108, 108);
+}
+.welcomemsg h1{
+  margin: 20px;
+  font-size: 20px;
+}
+.spinner{
+  margin: 200px auto;
+}
